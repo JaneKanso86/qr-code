@@ -1,0 +1,39 @@
+body {
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+.styled-link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #d4af37;
+  font-size: 5vw;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  border: 2px solid #d4af37;
+  padding: 12px 25px;
+  border-radius: 30px;
+  background-color: black;
+  transition: all 0.3s ease;
+  max-width: 90%;
+}
+
+@media (min-width: 600px) {
+  .styled-link {
+    font-size: 20px;
+    padding: 12px 35px;
+  }
+}
+
+.styled-link:hover {
+  background-color: #d4af37;
+  color: black;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #d4af37;
+}

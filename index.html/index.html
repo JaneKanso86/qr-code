@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trust ME Discount</title>
+    <style>
+      body {
+        background-color: #111;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: column; /* 👉 Розміщення в стовпчик */
+        align-items: center;
+        gap: 20px; /* Відстань між зображенням і кнопкою */
+        text-align: center;
+      }
+
+      .styled-link {
+        display: block;
+        text-decoration: none;
+        color: #d4af37;
+        font-size: 20px;
+        font-family: "Arial", sans-serif;
+        font-style: italic; /* 👉 Курсив */
+        font-weight: bold;
+        border: 2px solid #d4af37;
+        padding: 12px 25px;
+        border-radius: 30px;
+        background-color: black;
+        transition: all 0.3s ease;
+        max-width: 90%;
+      }
+
+      .styled-link:hover {
+        background-color: #d4af37;
+        color: black;
+        transform: scale(1.05);
+        box-shadow: 0 0 15px #d4af37;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="./images/bg.jpg" alt="Background" width="500" height="260" />
+      <a
+        href="https://www.instagram.com/trustme.derma?igsh=MXBtdGpra2FlY2MwZw=="
+        class="styled-link"
+        target="_blank"
+      >
+        Hi, darling! Your discount on beauty is -15%❤️
+      </a>
+    </div>
+  </body>
+</html>
